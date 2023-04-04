@@ -1,6 +1,6 @@
 # data directories
-00_source_data/
-05_clean_data/
+00_source_data/*
+05_clean_data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
