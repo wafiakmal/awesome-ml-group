@@ -30,7 +30,7 @@ Below is a represnetation of our experimental workflow:
 
 ## Data
 
-The facial expression dataset originated from [Kaggle at this link](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset). This dataset consisted of 7 facial expressions from various gender, race, and age. In the original state of the dataset, when downloaded, we found over 35,887 images. We later removed duplicates and revised some classification labels, which resulted in a slightly altered count of each emotion.
+The facial expression dataset originated from [Kaggle at this link](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset). This dataset consisted of 7 facial expressions from various gender, race, and age. In the original state of the dataset, when downloaded, we found over 35,887 images. We later removed duplicates and revised some classification labels, which resulted in a slightly altered count of each emotion. The data is not availale in this repository because of limitations on file sizes, but we'll happily provide if you'd like our final version.
 
 ## Exploratory Data Analysis
 
