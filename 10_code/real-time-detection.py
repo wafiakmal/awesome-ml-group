@@ -5,7 +5,7 @@ from keras.models import model_from_json
 from keras.preprocessing import image
 import tensorflow as tf
 
-
+# load model
 model = tf.keras.models.Sequential([
     
     # Input layer
