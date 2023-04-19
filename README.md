@@ -5,11 +5,11 @@
 
 *Spring 2023*
 
-**If you want to skip right to the end, [click here for the video presentation](https://youtu.be/l5mb75gyGYE)**
-
 ## Documents
 
-The project proposal can [be found here.](/40_docs/IDS705 Project Proposal.pdf)
+**If you want to skip right to the end, [click here for the video presentation](https://youtu.be/l5mb75gyGYE)**
+
+The project proposal can [be found here.](https://github.com/wafiakmal/awesome-ml-group/blob/main/40_docs/IDS705%20Project%20Proposal.pdf)
 
 The final project report can be found here.
 
@@ -42,10 +42,15 @@ Our exploratory data analysis began by checking these emotional categories for b
 
 Below are the results of our model evaluations. We find that both models perform reasonably well, with some struggles in specific emotions:
 
-<img src="/20_intermediate_files/ML Project Flowchart.jpg" width="800"/>
+<img src="/20_intermediate_files/ML VGG.png" width="700"/>
 
-<img src="/20_intermediate_files/ML Project Flowchart.jpg" width="800"/>
+<img src="/20_intermediate_files/ML Resnet.png" width="700"/>
 
+## Saliency Maps
+
+Once the model evaluation was complete, we generated saliency maps of the outcomes to compare the areas of importance for detecting specific emotions in our images. Below is a comparison of the saliency map for predictions created from all facial expressions determined by VGG-16 and ResNet50:
+
+<img src="/20_intermediate_files/ML Saliency Maps.png" width="600"/>
 
 ## How-to Reproduce:
 1. Download the data from [this link](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) or ask us for the access to `relabeled_recleaned` dataset.
