@@ -1,8 +1,17 @@
-# Team 7: Spring 2023
+# Feeling It: Emotion Classification with Machine Learning
+*Using Convolutional Neural Networks to Detect and Analyze Human Emotions from Facial Images*
 
 *Andrew Kroening, Chloe (Ke) Liu, Wafiakmal Miftah, Jenny (Yiran) Shen*
 
+*Spring 2023*
+
 **If you want to skip right to the end, [click here for the video presentation](https://youtu.be/l5mb75gyGYE)**
+
+## Documents
+
+The project proposal can [be found here.](/40_docs/IDS705 Project Proposal.pdf)
+
+The final project report can be found here.
 
 ## Abstract
 
@@ -14,6 +23,10 @@ The onset of the COVID-19 Pandemic introduced new wrinkles to identifying emotio
 
 One of the most notable areas where this question extends today is the more prevalent use of webcams and virtual meetings. Everyone has experienced a virtual meeting where a colleague’s face might be partially blocked, poorly positioned in the view pane, or obstructed by other issues. Reading the audience’s emotions can be challenging in these environments, a critical task in human communication. With this in mind, this project will seek to gain a greater understanding of where computer vision might be able to augment human interpretation when a portion of the face is obstructed and where a model’s limitations are. 
 
+Below is a represnetation of our experimental workflow:
+
+<img src="/20_intermediate_files/ML Project Flowchart.jpg" width="800"/>
+
 
 ## Data
 
@@ -21,9 +34,17 @@ The facial expression dataset originated from [Kaggle at this link](https://www.
 
 ## Exploratory Data Analysis
 
+Our exploratory data analysis began by checking these emotional categories for balance and visual sampling to ensure that the author assigned the categories correctly. The visualization of the category balance shows some skew, while the visual inspection found multiple instances that the team considered either an erroneous assignment or a potentially duplicated image. A team member conducted an image-by-image review of the dataset to correct the erroneous categorization in the base dataset. This resulted in a slight alteration to the emotional categories, as the overall size of the dataset outweighed the small but concerning number of misclassified images. In total, we identified 1,506 images that had at least one exact copy. Anecdotally, we later observed cases where a face was present in more than one image, but the aspect ratio, zoom, or other features were altered very slightly. These cases escaped our inspection because they were not identical copies of one another. The figure below presents the dataset before and after these steps were taken.
 
+<img src="/20_intermediate_files/ML EDA.png" width="800"/>
 
 ## Model Results
+
+Below are the results of our model evaluations. We find that both models perform reasonably well, with some struggles in specific emotions:
+
+<img src="/20_intermediate_files/ML Project Flowchart.jpg" width="800"/>
+
+<img src="/20_intermediate_files/ML Project Flowchart.jpg" width="800"/>
 
 
 ## How-to Reproduce:
