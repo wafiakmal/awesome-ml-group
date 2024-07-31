@@ -60,7 +60,7 @@ google-auth==2.17.2
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 greenlet @ file:///home/conda/feedstock_root/build_artifacts/greenlet_1674937639600/work
-grpcio==1.53.0
+grpcio==1.53.2
 h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1675704794369/work
 HeapDict==1.0.1
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
